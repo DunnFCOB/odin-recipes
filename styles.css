@@ -1,15 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(21, 21, 21);
-    color: antiquewhite;
-    font-family: Tahoma, sans-serif;
-    font-size: 15px;
+    color: rgb(219, 205, 191);
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 17px;
 }
 
 img {
     height: auto;
-    width: 500px;
+    width: 400px;
 }
 
 .recipe {
     font-size: 20px;
+}
+
+h1, h3 {
+    color: antiquewhite;
+    margin-left: 10px;
+}
+
+li {
+    
+}
+
+p, li {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.main {
+    background-color: rgb(32, 32, 31);
+    margin: 0 auto;
+    width: 680px;
+    padding: 8px
 }
